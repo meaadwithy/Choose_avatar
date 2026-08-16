@@ -77,10 +77,16 @@ public class OutfitSelector extends JPanel {
         else if (character.currentOutfit == 2) totalColors = character.OUTFIT_3.length;
         else if (character.currentOutfit == 3) totalColors = character.OUTFIT_4.length;
 
+        int buttonSize = 24;
+
+        int gap = 8; // 24 + 8 = 32 مثل كودك
+        int totalWidth = (totalColors * buttonSize) + ((totalColors - 1) * gap);
+        int startX = (185 - totalWidth) / 2; // يوسّط الأزرار
+
         for (int i = 0; i < totalColors; i++) {
             final int index = i;
             JButton colorBtn = new JButton();
-            colorBtn.setPreferredSize(new Dimension(24, 24));
+            colorBtn.setBounds(startX + i * (buttonSize + gap), 0, buttonSize, buttonSize);
             colorBtn.setBackground(Color.WHITE);
             colorBtn.setCursor(new Cursor(Cursor.HAND_CURSOR));
 
@@ -88,6 +94,7 @@ public class OutfitSelector extends JPanel {
                 character.currentOutfitColor = index;
                 characterPanel.repaint();
             });
+
             colorContainer.add(colorBtn);
         }
 
