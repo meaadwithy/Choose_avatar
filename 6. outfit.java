@@ -79,9 +79,9 @@ public class OutfitSelector extends JPanel {
 
         int buttonSize = 24;
 
-        int gap = 8; // 24 + 8 = 32 مثل كودك
+        int gap = 8; 
         int totalWidth = (totalColors * buttonSize) + ((totalColors - 1) * gap);
-        int startX = (185 - totalWidth) / 2; // يوسّط الأزرار
+        int startX = (185 - totalWidth) / 2;
 
         for (int i = 0; i < totalColors; i++) {
             final int index = i;
