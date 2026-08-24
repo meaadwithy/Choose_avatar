@@ -1,5 +1,5 @@
 # Choose Your Character
-<h4>A cute character customization game built with <h3>Java Swing</h3>, where players can create their own avatar by choosing different skin tones, eye colors, hairstyles, hair colors, outfits, and outfit colors.</h4>
+<h4>A cute character customization game built with <b>Java Swing</b>, where players can create their own avatar by choosing different skin tones, eye colors, hairstyles, hair colors, outfits, and outfit colors.</h4>
 
 The character is built dynamically by layering different visual assets together, allowing players to create thousands of unique combinations. ✨
 
