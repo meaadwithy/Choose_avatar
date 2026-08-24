@@ -1,4 +1,5 @@
 # Choose Your Character
+---
 A cute character customization game built with **Java Swing**, where players can create their own avatar by choosing different skin tones, eye colors, hairstyles, hair colors, outfits, and outfit colors.
 
 The character is built dynamically by layering different visual assets together, allowing players to create thousands of unique combinations. ✨
@@ -6,6 +7,7 @@ The character is built dynamically by layering different visual assets together,
 ---
 
 ## 🎮 Preview
+---
 
 > 📸
 <p align="center">
@@ -17,7 +19,7 @@ The character is built dynamically by layering different visual assets together,
 ---
 
 ## ✨ Features
-
+---
 -  **4 skin tones**
 -  **5 eye colors**
 -  **2 hairstyles**
@@ -31,6 +33,7 @@ With all available options, the game supports up to **3,840 possible character c
 ---
 
 ## 🛠️ Built With
+---
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
@@ -49,16 +52,21 @@ With all available options, the game supports up to **3,840 possible character c
 ---
 
 ## 🧩 How It Works
+---
 
 The character is created by combining multiple image layers:
 
 ```text
-       👗 Outfit
-          ↑
        💇 Hair
-          ↑
-       👁️ Eyes
-          ↑
+
        🧑 Skin
           ↓
+       👁️ Eyes
+          ↓
+       💇 Hair
+          ↓
+       👗 Outfit
+          ↓
     🎀 Final Character
+```
+---
